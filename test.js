@@ -6,7 +6,7 @@ describe("Index", function () {
     superagent.get("http://localhost:3000/")
       .end(function (e, res) {
         (e === null).should.equal(true);
-        res.text.should.equal("Welcome to Shippable");
+        res.text.should.equal("Welcome to Shippable1");
         done();
       });
   });
