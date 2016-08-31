@@ -13,7 +13,7 @@ build:
     
 integrations:
   notifications:
-    - integrationName: Myslack
+    - integrationName: Myslackq
       type: slack
       recipients:
         - "#mybuilds"
