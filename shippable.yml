@@ -12,10 +12,9 @@ build:
     - npm test
     
 integrations:
-  notifications:
-    - integrationName: Myslackq
-      type: slack
-      recipients:
-        - "#mybuilds"
-      on_start: always
-      on_success: always
+  - integrationName: Myslackq
+    type: notification
+    recipients:
+      - "#mybuilds"
+    on_start: always
+    on_success: always
