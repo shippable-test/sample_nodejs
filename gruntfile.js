@@ -13,7 +13,13 @@ module.exports = function (grunt) {
        options: {
          reporter: 'spec-xunit-file'
        },
-       src: ["./test.js", "./test1.js"]
+       src: ["./test.js"]
+     },
+     test1: {
+      options: {
+       reporter: 'spec-xunit-file'
+      },
+      src: ["./test1.js"]
      }
    }
  });
