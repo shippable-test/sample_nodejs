@@ -11,5 +11,5 @@ build:
   ci:
     - npm install
     - npm test
-    - npm test1
+
 
