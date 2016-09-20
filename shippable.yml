@@ -12,11 +12,4 @@ build:
     - npm install
     - npm test
     - npm test1
-integrations:
-  notifications:
-    - integrationName: Myslack
-      type: slack
-      recipients:
-        - "#mybuilds"
-      on_start: always
-      on_success: always
+
