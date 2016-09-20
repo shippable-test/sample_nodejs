@@ -11,6 +11,7 @@ build:
   ci:
     - npm install
     - npm test
+    - npm test1
 integrations:
   notifications:
     - integrationName: Myslack
