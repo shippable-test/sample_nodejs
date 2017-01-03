@@ -12,6 +12,7 @@ env:
 build:
   ci:
     - npm install
+    - echo $test
 #    - npm test
 
 
