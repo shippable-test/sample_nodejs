@@ -6,6 +6,8 @@ node_js:
 
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
+  - secure: abcd
+  - test=rcyml
 
 build:
   ci:
