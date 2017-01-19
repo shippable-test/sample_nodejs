@@ -12,8 +12,9 @@ node_js:
 build:
   ci:
  #   - npm install
-    - echo $test
+ #   - echo $test
 #    - npm test
+     - echo "yoyyo"
 
 integrations:     
   notifications:
