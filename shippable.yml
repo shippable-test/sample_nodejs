@@ -15,4 +15,15 @@ build:
     - echo $test
 #    - npm test
 
+integrations:     
+  notifications:
+    - integrationName: slack
+      type: slack
+      recipients:
+        - "#deepika-test" 
+    #  on_start: never
+      on_success: change
+      on_failure: change
+      #on_pull_request: never
+
 
