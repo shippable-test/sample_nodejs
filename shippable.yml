@@ -15,7 +15,8 @@ build:
      - echo $test
 #    - npm test
      - echo "yoyyo"
-     -  node --version
+     - node --version
+     - echo "hey" 
 
 integrations:     
   notifications:
@@ -26,5 +27,5 @@ integrations:
     #  on_start: never
       on_success: change
       on_failure: change
-      on_pull_request: change
+    #  on_pull_request: change
 
