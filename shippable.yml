@@ -4,14 +4,14 @@ node_js:
   - 0.12
   - 5.0.0
 
-env:
-  - XUNIT_FILE=shippable/testresults/result.xml
-  - secure: abcd
-  - test=rcyml
+#env:
+#  - XUNIT_FILE=shippable/testresults/result.xml
+#  - secure: abcd
+#  - test=rcyml
 
 build:
   ci:
-    - npm install
+ #   - npm install
     - echo $test
 #    - npm test
 
