@@ -26,7 +26,7 @@ integrations:
     #    - "#niraj93"
         - "#deepika-test" 
     #  on_start: never
-    #  on_success: change
-    #  on_failure: change
+      on_success: change
+      on_failure: change
     #  on_pull_request: change
 
