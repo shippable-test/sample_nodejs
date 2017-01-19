@@ -23,7 +23,7 @@ integrations:
     - integrationName: slack
       type: slack
       recipients:
-     #   - "#niraj93"
+        - "#niraj93"
         - "#deepika-test" 
     #  on_start: never
       on_success: change
