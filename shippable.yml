@@ -13,10 +13,10 @@ build:
     
 integrations:
   notifications:
-    - integrationName: Myslack
+    - integrationName: slack
       type: slack
       recipients:
-        - "#mybuilds"
+        - "#niraj93"
       on_start: always
       on_success: always
       on_failure: always
