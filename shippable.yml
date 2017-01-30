@@ -24,7 +24,7 @@ integrations:
       type: slack
       recipients:
     #    - "#niraj93"
-        - "#deepika-test" 
+        - "#test-channel" 
     #  on_start: never
       on_success: change
       on_failure: change
