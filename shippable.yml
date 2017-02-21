@@ -13,7 +13,7 @@ build:
     
 integrations:
   notifications:
-    - integrationName: slack
+    - integrationName: slack-macha
       type: slack
       recipients:
         - "#niraj93"
