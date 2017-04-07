@@ -13,10 +13,10 @@ build:
     
 integrations:
   notifications:
-    - integrationName: slack-macha
+    - integrationName: slack
       type: slack
       recipients:
-        - "#niraj93"
+        - "#test-channel"
       on_start: always
       on_success: always
       on_failure: always
