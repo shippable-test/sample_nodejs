@@ -17,7 +17,7 @@ build:
      - echo "yoyyo"
      - node --version
      - echo "hey" 
-     - sleep 5m
+     - sleep 5
 
 integrations:     
   notifications:
