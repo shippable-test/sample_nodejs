@@ -21,7 +21,7 @@ build:
 
 integrations:     
   notifications:
-    - integrationName: slack
+    - integrationName: slack-error
       type: slack
       recipients:
     #    - "#niraj93"
